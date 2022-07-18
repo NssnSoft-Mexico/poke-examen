@@ -1,0 +1,24 @@
+<mat-card class="card">
+  <mat-tab-group style="font-size: 20px;">
+    <mat-tab  label="Quien es ese pokemon ? "> 
+      <mat-card-header>
+        <img mat-card-avatar class="header-image" src="{{pokemonImg}}">
+        <div style="margin-left: 60px; padding-top: 100px;">
+          <mat-card-title style="font-size: 25px;">Nombre: {{pokemon.name}}</mat-card-title>
+          <mat-card-subtitle style="font-size: 25px;">POSICIÓN: {{pokemon.id}}</mat-card-subtitle>
+        </div>
+      </mat-card-header>
+    </mat-tab>
+    <mat-tab label="Datos Generales">
+      <mat-card-header class="mat">
+          <mat-chip color="primary" >Tipo de pokémon: {{pokemonType}}</mat-chip>
+          <mat-chip color="primary">Ataque: {{pokemon.stats[1].base_stat}}</mat-chip>
+          <mat-chip color="primary">Defensa: {{pokemon.stats[2].base_stat}}</mat-chip>
+          <mat-chip color="primary">Especial: {{pokemon.stats[3].base_stat}}</mat-chip>
+          <mat-chip color="primary">Velocidad: {{pokemon.stats[5].base_stat}}</mat-chip>
+      </mat-card-header>
+    </mat-tab>
+  </mat-tab-group>
+</mat-card>
+
+  

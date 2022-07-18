@@ -1,0 +1,26 @@
+
+  .main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    .editor {
+      margin: 150px;
+      color: white;
+    }
+    .image-flex{
+      display: flex;
+      justify-content: center;
+      .people {
+        width: 100%;
+      }
+    }
+  }
+  
+  .mat-card{
+    padding: 25px;
+    background-color: #FF0800; 
+    border-radius: 20px;
+  }
+  
+ 

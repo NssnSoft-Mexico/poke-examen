@@ -1,0 +1,46 @@
+@import "../../../src/assets/Generico.scss";
+
+.card {
+    border-radius: 50px;
+    height: 380px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #FF0800;
+}
+
+.header-image {
+    background-size: cover;
+    height: 100%;
+    width: 37%;
+    border-radius: 50%;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.mat-card-header{
+    background-color: $white;
+    padding-top: 10px;
+    height: 290px;
+    border-radius: 10px;
+    padding-left: 22px;
+
+}
+.mat{
+    background-color: $white;
+    padding-top: 10px;
+    height: 290px;
+    border-radius: 10px;
+    padding-left: 22px;
+    display: block !important;
+    font-size: 25px;
+}
+
+.mat-card-title{
+    text-transform: uppercase;
+    color: $black;
+}
+
+.mat-card-subtitle{
+    color: $black;
+}
